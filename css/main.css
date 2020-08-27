@@ -1,0 +1,94 @@
+:root {
+  --mainBlack: #000000;
+  --white: #ffffff;
+  --mainBlue: #36caca;
+  --mainRed: #ca3636;
+  --mainYellow: #e0de44;
+}
+body {
+  background: var(--mainBlack);
+  color: var(--white);
+}
+.show-btn {
+  border-color: var(--mainBlue);
+  color: var(--mainBlue);
+  background: transparent;
+}
+.show-btn:hover {
+  background: var(--mainBlue);
+  color: var(--white);
+}
+
+.question-card {
+  display: none;
+  position: relative;
+  background: transparent;
+  border-color: var(--mainBlue);
+}
+.feedback {
+  display: none;
+}
+
+textarea {
+  border-radius: 0.25rem;
+  border-color: var(--mainBlue);
+}
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  font-size: 2rem;
+  color: var(--mainBlue);
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: var(--mainBlue);
+}
+.submitBtn {
+  border: 0.2rem solid var(--mainBlue);
+  color: var(--mainBlue);
+  background: transparent;
+}
+.submitBtn:hover {
+  background: var(--mainBlue);
+  color: var(--mainBlack);
+}
+.edit-flashcard {
+  border: 0.2rem solid var(--mainYellow);
+  color: var(--mainYellow);
+  background: transparent;
+}
+.edit-flashcard:hover {
+  background: var(--mainYellow);
+  color: var(--white);
+}
+.delete-flashcard {
+  border: 0.2rem solid var(--mainRed);
+  color: var(--mainRed);
+  background: transparent;
+}
+.delete-flashcard:hover {
+  background: var(--mainRed);
+  color: var(--white);
+}
+.answer {
+  display: none;
+}
+.showItem {
+  display: block;
+}
+.flashcard {
+  color: black;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 10px 2px 20px #36caca;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  text-align: center;
+}
+
+.flashcard:hover {
+  box-shadow: 30px 5px 53px #36caca;
+}
