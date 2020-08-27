@@ -1,3 +1,3 @@
 ### Flashcards
 
-Stack: html,CSS,Bootstrap and Js
+Stack: html, CSS, Bootstrap and Js
